@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+html{
+    font-size:62.5% ;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-image:url("pattern4.jfif");
+    background-repeat:repeat;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 62.5%;
+    font-family: "Quicksand";
+    color:rgb(35, 2, 11);
+
+}
+h1{
+    font-size:3.7rem;
+}
+.mainBox{
+    background-color: rgba(255, 240, 255, 0.427);
+    border-radius: 3%;
+    padding: 2rem;
+    padding-left:2.5rem;
+    padding-right: 2.5rem;
+    backdrop-filter: blur(8px);
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:auto;
+    margin-bottom: auto;
+    max-width:50rem;
+    justify-self: center;
+}
+button{
+    background-color: rgba(240, 248, 255, 0);
+    border:none;
+    border-radius: 3%;
+    font-family:"Quicksand";
+    font-size:2rem;
+    color:rgba(21, 20, 20, 0.809);
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+.buttonsdiv{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.buttonsdiv button{
+    font-size: 1rem;
+    font-family:"Elms Sans";
+}
+.mainHeader{
+  background-color: rgba(240, 248, 255, 0.539);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  backdrop-filter: blur(8px);
+  padding-left: 1rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2srem;
+}
+.mainHeader button{
+ width:auto;
+ color: #000;
+ font-family:"Quicksand";
+ font-weight: 500;
+}
+button:hover{
+    transform: translateY(-2px);
+    color:rgb(35, 2, 11);
+}
+@media (max-width:1200px){
+    html{
+        font-size:58%;
+    }
+}
+@media (max-width:992px){
+    html{
+        font-size:56%;
+    }
+}
+@media(max-width:764px){
+    html{
+        font-size:2%
+    }
+}
+@media(max-width:576px){
+    html{
+        font-size:50%
+    }
+}
+@media(max-width:400px){
+    html{
+        font-size:48%
+    }
+}
