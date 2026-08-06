@@ -8,7 +8,7 @@ const body = document.querySelector("body");
 body.style.backgroundImage = `url(${backgrounds[RandomBackGround]})`;
 
 function randomQuote(){
-   return Math.floor(Math.random() * 300)
+   return Math.floor(Math.random() * 290)
 }
 
 async function GetQuote(){
