@@ -6,8 +6,8 @@ is **pink** simple quote genertor that's designed to brighten your day and keep 
 ## what does it do ?
 - generates random motivational quotes
 - gives random pink backgrounds
-## you can press "new quote" to generate new quote in the same background 
-## you can also copy the quote if u like it
-## refresh to get new background and new quote !
+- you can press "new quote" to generate new quote in the same background
+- you can also copy the quote if u like it
+- refresh to get new background and new quote !
 
 [Bloom](https://hot-stemer.github.io/Bloom/)
